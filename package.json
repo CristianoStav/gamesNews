@@ -1,0 +1,15 @@
+{
+  "name": "gamesnews",
+  "version": "1.0.0",
+  "description": "Uma aplicação criada com o intuito de ter informações sobre games e afins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CristianoStav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
