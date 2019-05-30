@@ -1,4 +1,4 @@
-angular.module('gameNews', ['ngRoute', 'ngResource'])
+angular.module('gamesNews', ['ngRoute', 'ngResource',])
     .config(function ($routeProvider, $locationProvider, $httpProvider) {
 
         // as vezes dá erro por causa de rotas 'iguais' no servidor
@@ -6,7 +6,7 @@ angular.module('gameNews', ['ngRoute', 'ngResource'])
 
 
         $routeProvider.when("/", {
-            templateUrl: 'components/news.html',
+            templateUrl: 'components/news/news.html',
             controller: 'NewsController'
         });
 
