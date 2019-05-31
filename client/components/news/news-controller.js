@@ -11,8 +11,8 @@
 
         newsService.getNews("games")
         .then(function(result){
-            $scope.legal = result;
+            $scope.news = result.articles;
         });
-            
+
     }
 })();

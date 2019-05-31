@@ -1,1 +1,28 @@
-<h1>{{legal}}</h1>
+<div class="row">
+    <div class="card col-sm-3 text-center" ng-repeat="new in news" style="margin: 45px;">
+        <img class="card-img-top img-thumbnail" src="{{new.urlToImage}}" alt="{{new.name}}">
+        <div class="cardo-body">
+            <h5 class="card-title" style="margin-top: 25px; margin-bottom: 25px">{{new.title}}</h5>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row">
+    <div ng-repeat="new in news" class="card col-3">
+        <img src="{{new.urlToImage}}" class="card-img-top">
+        <div class="card-title">{{new.title}}</div>
+    </div>
+</div> -->
+
+<!-- <div class="card-deck">
+  <div class="card" ng-repeat="new in news | limitTo: 3">
+    <img src="{{news[0].urlToImage}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div> -->
