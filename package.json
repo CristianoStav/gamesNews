@@ -12,6 +12,7 @@
     "body-parser": "^1.19.0",
     "consign": "^0.1.6",
     "express": "^4.17.1",
+    "newsapi": "^2.4.0",
     "request": "^2.88.0"
   }
 }
