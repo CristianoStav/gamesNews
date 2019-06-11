@@ -7,6 +7,10 @@ angular.module('gamesNews', ['ngRoute', 'ngResource', 'newsHttp'])
             controller: 'NewsController'
         });
 
+        $routeProvider.when("/new", {
+            templateUrl: 'components/new/new.html',
+        });
+
         $routeProvider.otherwise({ redirectTo: '/' });
         
     });
