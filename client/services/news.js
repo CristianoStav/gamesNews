@@ -4,6 +4,6 @@ angular.module('newsHttp', ['ngResource'])
         var recursoGetNews = $resource('/api/news/:info', { info: '@info' })
 
         return {
-            getNews: (info) => recursoGetNews.get({ info: info }).$promise
+            getNews: (info) => recursoGetNews.query({ info: info }).$promise
         };
     });

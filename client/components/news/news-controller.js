@@ -11,7 +11,8 @@
 
         newsService.getNews("games")
         .then(function(result){
-            $scope.news = result.articles;
+            console.log(result);
+            $scope.news = result;
         });
 
     }
